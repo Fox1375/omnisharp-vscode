@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Extension",
+   "extensionHost"         "name": "Launch Extension",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
@@ -19,7 +19,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Unit tests",
+   "node"         "name": "Launch Unit tests",
             "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
             "args": [
                 "-u",
@@ -37,7 +37,7 @@
             "preLaunchTask": "build"
         },
         {
-            "name": "Launch Feature Tests",
+   "extensionHost"         "name": "Launch Feature Tests",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
@@ -60,7 +60,7 @@
             "preLaunchTask": "build"
         },
         {
-            "name": "Launch singleCsproj Workspace Tests",
+   "extensionHost"         "name": "Launch singleCsproj Workspace Tests",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
@@ -85,7 +85,7 @@
             "preLaunchTask": "buildDev"
         },
         {
-            "name": "Launch razorcsproj Workspace Tests",
+   "extensionHost"         "name": "Launch razorcsproj Workspace Tests",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
@@ -104,7 +104,7 @@
             },
         },
         {
-            "name": "Launch slnWithCsproj Workspace Tests",
+   "extensionHost"         "name": "Launch slnWithCsproj Workspace Tests",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
@@ -129,7 +129,7 @@
             "preLaunchTask": "buildDev"
         },
         {
-            "name": "Launch slnFilterWithCsproj Workspace Tests",
+   "Launch Extension"         "name": "Launch slnFilterWithCsproj Workspace Tests",
             "type": "extensionHost",
             "request": "launch",
             "runtimeExecutable": "${execPath}",
